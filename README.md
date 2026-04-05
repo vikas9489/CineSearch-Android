@@ -2,7 +2,13 @@
 
 🚀 Production-ready Android movie browsing app demonstrating **Jetpack Compose, Clean Architecture, Paging 3, Coroutines & Flow**
 
-A modern Android application to browse, search, and explore movies using the [OMDb API](http://www.omdbapi.com/). Built with scalable architecture and real-world patterns.
+A modern Android application to browse, search, and explore movies using the [OMDb API](http://www.omdbapi.com/). Built with scalable architecture and real-world Android development practices.
+
+---
+
+## 🎥 Demo
+
+![Demo](screenshots/demo.gif)
 
 ---
 
@@ -46,7 +52,7 @@ A modern Android application to browse, search, and explore movies using the [OM
 
 This project follows **MVVM + Clean Architecture**
 
-```
+```text
 UI → ViewModel → Domain → Data
 ```
 
@@ -58,7 +64,7 @@ UI → ViewModel → Domain → Data
 
 ## 🗂️ Project Structure
 
-```
+```text
 data/
 domain/
 ui/
@@ -85,6 +91,15 @@ di/
 
 ---
 
+## 🧠 Key Learnings
+
+* Implemented scalable pagination using Paging 3
+* Managed UI state using StateFlow
+* Handled concurrency using Kotlin Coroutines
+* Applied Clean Architecture for maintainability
+
+---
+
 ## 🚀 Future Improvements
 
 * 🎥 Video streaming with ExoPlayer
@@ -102,12 +117,12 @@ di/
 ## 🚀 Getting Started
 
 ```bash
-git clone <your-repo-url>
+git clone https://github.com/vikas9489/CineSearch-Android.git
 ```
 
 * Open in Android Studio
 * Sync Gradle
-* Run app
+* Run the app
 
 ---
 
